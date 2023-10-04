@@ -10,7 +10,8 @@ import { AboutView } from "./views/AboutView.js";
 export const router = [
   {
     path: '',
-    controller: [SnacksController, MoneyController]
+    controller: [SnacksController, MoneyController],
+    view: null
 
   },
   {

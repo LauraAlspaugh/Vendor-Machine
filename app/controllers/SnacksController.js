@@ -23,6 +23,7 @@ export class SnacksController {
     }
     buySnack(snackName) {
         console.log('can i buy this snack?')
+        snackName.preventDefault
         snacksService.buySnack(snackName)
         _drawSnacks()
     }
