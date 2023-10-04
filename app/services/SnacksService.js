@@ -13,7 +13,7 @@ class SnacksService {
         } else {
             console.error("not enough money");
         }
-        AppState.emit('snack')
+
     }
 }
 
